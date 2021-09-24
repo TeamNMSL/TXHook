@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TXHook</string>
+
+    <string name="tab_catch_packet">抓包</string>
+    <string name="tab_analyse">分析</string>
+    <string name="tab_values">数据</string>
+    <string name="tab_tools">工具</string>
+    <string name="base_info">基础信息</string>
+    <string name="qq_token">最后QQ操作者TOKEN</string>
+
+    <string name="tab_setting">设置</string>
+
+    <string name="catching_info">抓包信息</string>
+
+    <string name="info">信息</string>
+    <string name="content">内容</string>
+    <string name="as_protobuf">作为Protobuf分析</string>
+    <string name="as_tars">作为Jce分析</string>
+
+</resources>

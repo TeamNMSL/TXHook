@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "moe.ore.txhook",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 12110,
+      "versionName": "1.2.0",
+      "outputFile": "app-release.apk"
+    }
+  ],
+  "elementType": "File"
+}

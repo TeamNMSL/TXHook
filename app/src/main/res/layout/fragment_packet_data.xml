@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".PacketInfoActivity">
+
+    <com.xuexiang.xui.widget.layout.XUILinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="match_parent"
+        android:alpha="0"
+        app:xui_radius="12dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:background="#407bbfea"
+            android:layout_height="match_parent">
+            <com.xuexiang.xui.widget.textview.autofit.AutoFitTextView
+                android:id="@+id/data"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:gravity="top|start"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textIsSelectable="true"
+                android:textSize="20sp"/>
+        </ScrollView>
+
+    </com.xuexiang.xui.widget.layout.XUILinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

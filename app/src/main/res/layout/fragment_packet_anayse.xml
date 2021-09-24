@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".PacketInfoActivity">
+
+    <com.xuexiang.xui.widget.layout.XUILinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.xuexiang.xui.widget.layout.XUILinearLayout
+            android:id="@+id/button_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <com.xuexiang.xui.widget.button.ButtonView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/as_pb"
+                style="@style/ButtonView.Blue"
+                android:text="@string/as_protobuf"
+                android:minHeight="30dp"
+                android:padding="10dp"
+                android:layout_margin="10dp"/>
+
+            <com.xuexiang.xui.widget.button.ButtonView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/as_jce"
+                style="@style/ButtonView.Blue"
+                android:text="@string/as_tars"
+                android:minHeight="30dp"
+                android:padding="10dp"
+                android:layout_margin="10dp"/>
+
+        </com.xuexiang.xui.widget.layout.XUILinearLayout>
+
+        <com.xuexiang.xui.widget.layout.XUILinearLayout
+            android:id="@+id/empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/tx_appbar_color"
+                android:textSize="20sp"
+                android:text="包体为空"/>
+
+        </com.xuexiang.xui.widget.layout.XUILinearLayout>
+
+
+    </com.xuexiang.xui.widget.layout.XUILinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
